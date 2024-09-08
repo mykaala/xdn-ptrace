@@ -11,6 +11,6 @@ I have contributed to the benchmark by implementing the **ptrace-based** statedi
 - **Logging & Persistence:** All state updates captured during the benchmark are logged to /tmp/statediff for later analysis.
 
 ## Benchmark Result
-The following chart shows the execution time comparison between running the web service with and without the tracer. As seen, the tracer introduces a slight overhead, increasing the execution time from 1.847 ms to 3.489 ms.
+The following chart shows the execution time comparison between running the web service with and without the tracer. As seen, the tracer introduces a slight overhead, increasing the execution time from 1.847 ms to 3.489 ms. Despite this overhead, the method provides a transparent and flexible way to capture state updates, making it a viable option for non-invasive state replication in edge service delivery networks. Further optimization may be required to minimize the overhead in production environments.
 
-![Execution Time Comparison](Execution Time (ms).png)
+![Execution Time Comparison](https://github.com/mykaala/xdn-ptrace/blob/main/Execution%20Time%20(ms).png?raw=true)
